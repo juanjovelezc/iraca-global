@@ -31,21 +31,20 @@ export const hero = {
   titleLead: 'Vetted bilingual developers,',
   titleAccent: 'ready to ship.',
   lead:
-    'We place junior-to-mid software engineers from Colombia with engineering teams across North America and Europe. Screened for code, for English, and for the thing nobody screens for.',
+    'We connect growing teams in North America and Europe with junior- to mid-level software engineers in Colombia. Every person we send you has already been checked for code, for English, and for the one thing most agencies never think to check at all.',
   primaryCta: 'Send us a job description',
   secondaryCta: 'See how we screen',
   meta: [
-    { title: 'US Eastern hours', sub: 'Zero time zone gap' },
-    { title: 'Junior to mid-level', sub: 'Where nearshore returns most' },
-    { title: 'Bilingual. Vetted. Reliable.', sub: 'Tested, not assumed' },
+    { title: 'Zero time zone gap', sub: 'US Eastern hours' },
+    { title: 'Bilingual, vetted, reliable', sub: 'Tested, not assumed' },
   ],
 }
 
 export const problem = {
   tag: 'The problem',
-  title: 'Hiring engineers is slow, and the slow part is expensive.',
+  title: 'The real cost of an empty seat, and how we close it fast.',
   lead:
-    'These are the numbers behind every open role. They are not our metrics — they are what the market reports, and they are what an unfilled seat costs you.',
+    'Hiring an engineer usually takes too long, and every extra week costs you real work that never gets done. We built Iraca Global to close that gap quickly. We already have a pipeline of developers who are tested and ready, so instead of starting your search from zero, you start from a shortlist.',
   stats: [
     {
       value: 39, prefix: '', suffix: '',
@@ -67,20 +66,20 @@ export const problem = {
 
 export const whatWeDo = {
   tag: 'What we do',
-  title: 'End-to-end hiring for the layer most agencies skip.',
+  title: 'What we do for you.',
   lead:
-    'Sourcing, technical screening, English assessment, and cultural fit. You get a shortlist of people already tested on what usually breaks a distributed hire.',
+    'We handle the whole process for you, from finding someone to making sure they are actually a good fit. Sourcing, testing their skills, checking their English, and getting a feel for how they work with people. You only meet candidates who are already ready to say yes and do great work.',
   cards: [
     {
       kicker: 'Mid-level',
       title: 'Where the volume is',
-      body: 'Engineers with two to four years who can own a surface, not just close tickets. This is the deepest part of the Latin American market and the fastest place to add capacity without a senior price tag.',
+      body: 'Engineers with two to four years of experience. People who can take real ownership of a project, not just check off small tasks.',
       points: ['Full stack, frontend, backend', 'QA and test automation', 'Data and integrations'],
     },
     {
       kicker: 'Junior',
       title: 'Where we specialize',
-      body: 'A deliberate focus, not a ceiling. Senior engineers are a crowded, expensive market. The real bottleneck for growing teams is the layer underneath — and it is the layer almost nobody wants to recruit for properly.',
+      body: 'This is the group most agencies skip, and it is our favorite group to work with. One to two years of real experience, chosen for good judgment, not just a diploma. We place them with teams who will actually help them grow.',
       points: ['One to two years of real production work', 'Screened for judgement, not credentials', 'Placed into teams that will actually develop them'],
     },
   ],
@@ -88,52 +87,52 @@ export const whatWeDo = {
 
 export const method = {
   tag: 'Our method',
-  title: 'The rubric we screen with. All of it.',
+  title: 'How we choose the right person for you.',
   lead:
-    'We are new, so we are not going to ask you to trust a track record we have not built yet. Here is the entire scoring rubric instead. Judge the method.',
+    'We are a new company, so instead of asking you to trust us blindly, we want to show you exactly how we work. Here is our full process.',
   criteria: [
-    { weight: '25%', title: 'Code reading', body: 'Given an unfamiliar pull request, can they explain what it does and spot the risk? Juniors spend more time reading code than writing it, and almost nobody screens for it.' },
-    { weight: '25%', title: 'Debugging', body: 'A broken function. Not "fix it" — narrate how you would find the problem. We score the path, not the answer.' },
-    { weight: '20%', title: 'Communication under pressure', body: 'We interrupt. We disagree. Can they hold the thread, in English, and push back politely without folding?' },
-    { weight: '15%', title: 'Estimation honesty', body: 'Ask for an estimate, then ask what could make it wrong. Someone who invents an answer in a low-stakes call will invent one in sprint planning.' },
-    { weight: '15%', title: 'Curiosity', body: 'What they ask us. For a junior hire, the ability to ask a good question predicts more of the next twelve months than anything on the CV.' },
-    { weight: '0%', title: 'Algorithm puzzles', body: 'We do not use them. They measure preparation for algorithm puzzles. Nobody\u2019s job is inverting a binary tree.' },
+    { weight: '25%', title: 'Reading code', body: 'We hand them a piece of code they have never seen and ask them to explain it. Most of a developer’s day is spent reading code, so this tells us a lot.' },
+    { weight: '25%', title: 'Solving problems', body: 'We give them a broken piece of code and ask them to talk us through how they would fix it. We care more about how they think than the final answer.' },
+    { weight: '20%', title: 'Talking things through', body: 'We ask hard questions and gently push back, in English, to see how they handle a real conversation under pressure.' },
+    { weight: '15%', title: 'Being honest', body: 'We ask for a time estimate, then ask what could go wrong with it. Someone who is honest here will be honest with you later too.' },
+    { weight: '15%', title: 'Curiosity', body: 'We pay close attention to the questions they ask us. A good question often tells us more than a perfect resume.' },
+    { weight: '0%', title: 'Puzzle tests', body: 'We do not use them. They only show how well someone studied for a puzzle, not how well they can do the job.' },
   ],
   note:
-    'A platform can now score how someone builds. What it cannot do is tell you whether they can disagree with a product manager in English on a Thursday afternoon, whether they will still be here in month nine, or what is actually happening in their week. We are in Medellín, in the same city as the people we place. That is the part that does not automate.',
+    'A computer can score how someone writes code. It cannot tell you if that person will still be smiling on a hard Thursday, or if they will still be with you in a year. We can, because we are right there with them, in Medellín.',
 }
 
 export const faq = {
   tag: 'Straight answers',
-  title: 'The questions you were going to ask anyway.',
+  title: 'The questions you were already thinking, answered simply.',
   items: [
-    { q: 'Who owns the code?', a: 'You do, when the contract says so — with an explicit IP assignment clause under the law you choose. Colombia recognizes work-for-hire arrangements and is a signatory to the major international IP conventions. This is a solved problem, but it is also where a weak contract creates real exposure, so do not use a template you found online.' },
-    { q: 'How do we pay them legally?', a: 'Two clean paths. An independent contractor agreement, where the developer invoices you directly and handles their own tax obligations in Colombia. Or an employer of record, where a third party holds the employment relationship and you pay one invoice. Contractor is simpler and faster. EOR gives you more control and suits benefits, equity, or a long horizon.' },
-    { q: 'Is their English actually good enough?', a: 'Interview English and working English are different skills. An interview is a prepared performance. Working English is a planning call with four people talking over each other and an idiom you have to catch in real time. So we interrupt candidates deliberately, ask them to disagree with us, and read a written sample. A certificate is not the bar. The bar is whether they can be understood when it is inconvenient.' },
-    { q: "What happens if it doesn't work out?", a: 'It depends on the structure you chose. Contractor agreements end with notice. Employment relationships in Colombia carry more worker protection than most US states, and severance rules are real. Know which structure you are in before you need to know. We are not lawyers and this is not legal advice — talk to counsel who knows Colombian labor law before signing. But you should walk in knowing what to ask.' },
-    { q: 'What about holidays and time zones?', a: 'Medellín is UTC-5. Zero hours from US Eastern, one from Central, three from Pacific — a real overlap window every working day. Colombia has 18 public holidays against roughly 11 in the US, and they mostly do not align. Put the calendar in the contract on day one rather than discovering it in November.' },
-    { q: 'What does it cost?', a: 'It depends on the role, the seniority, and whether you want contractor or EOR. We would rather quote something real than publish a number that turns out to be wrong for your situation. Send us the job description and you will get a straight answer, including whether we think we are the right fit at all.' },
+    { q: 'Who owns the code?', a: 'You do. We make sure the contract says so clearly, so there is never any confusion later.' },
+    { q: 'How do we pay them the right way?', a: 'We make it simple. You can either work with them as an independent contractor, which is the fastest way to start, or use an employer of record, which gives you a bit more structure if you are planning long term. We help you pick whichever fits you best.' },
+    { q: 'Is their English really good enough?', a: 'Yes, and we make sure of it in a real way. Instead of just checking a certificate, we have a real conversation with them, including moments where we interrupt or disagree, just like in a real meeting. If they can hold their own there, they can hold their own with your team.' },
+    { q: 'What if it does not work out?', a: 'That is exactly why we offer a guarantee. If a placement does not work out within 90 days, we find you someone new, at no extra cost. We also walk you through what to expect from the start, so there are no surprises later.' },
+    { q: 'What about holidays and time zones?', a: 'Good news here too. Medellín shares almost the exact same working hours as the US. We also give you the full holiday calendar upfront, so you can plan ahead with zero surprises.' },
+    { q: 'What does it cost?', a: 'It depends on the role, so instead of guessing, just send us the job description. We will give you a real, honest number, and tell you plainly if we are not the right fit for you.' },
   ],
 }
 
 export const commitments = {
   tag: 'What we commit to',
-  title: 'No case studies yet. Commitments instead.',
+  title: 'What we promise you, from day one.',
   lead:
     'We cannot show you a retention rate we have not earned. We can tell you exactly what we hold ourselves to, in writing, from the first search.',
   items: [
-    { title: 'First shortlist in 10 business days', body: 'From signed brief to candidates in front of you.' },
-    { title: '90-day replacement guarantee', body: 'If the placement does not hold, we run the search again.' },
-    { title: 'Screening included', body: 'Technical assessment and English evaluation, before you see anyone.' },
-    { title: 'We say no', body: 'If we cannot fill your role, we tell you in an email — not six weeks into a search.' },
+    { title: 'A shortlist in 10 business days', body: 'From the moment you sign, to real candidates in front of you.' },
+    { title: 'A 90 day guarantee', body: 'If it does not work out, we search again for you, at no cost.' },
+    { title: 'Every candidate is already tested', body: 'Code, English, and fit, before you ever see a name.' },
+    { title: 'We tell you the truth', body: 'If we cannot fill your role, we say so in an email, not six weeks later.' },
   ],
 }
 
 export const team = {
   tag: 'Who we are',
-  title: 'We have been on both sides of this table.',
+  title: 'We built Iraca Global because we have sat on both sides of this table.',
   lead:
-    'As the ones hiring, and as the ones being hired. That is why we screen for the things that never appear on a CV.',
+    'We know what it feels like to search for the right job, and we know what it feels like to search for the right person. That is why we care so much about getting the human part right, not just the paperwork.',
   members: [
     {
       initials: 'PV',
