@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+    font-size: 17px; line-height: 1.7;
+  }
+  h1, h2, h3 { @apply font-display font-semibold; line-height: 1.08; letter-spacing: -0.02em; }
+  section { scroll-margin-top: 88px; }
+  ::selection { @apply bg-teal text-ink; }
+  ::-webkit-scrollbar { width: 11px; }
+  ::-webkit-scrollbar-track { @apply bg-cream; }
+  ::-webkit-scrollbar-thumb { background: rgba(22,24,50,.12); border-radius: 9px; border: 3px solid #FAF7F0; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-teal; }
+  :focus-visible { outline: 2px solid #3FBFB0; outline-offset: 3px; border-radius: 4px; }
+}
+
+@layer components {
+  .wrap { @apply max-w-content mx-auto px-7; }
+  .btn {
+    @apply inline-flex items-center justify-center bg-teal text-ink font-semibold
+           rounded-full px-7 py-3.5 text-[15px] transition-all duration-300 ease-brand
+           hover:-translate-y-0.5 hover:shadow-[0_12px_30px_rgba(63,191,176,.42)];
+  }
+  .btn-ghost {
+    @apply bg-transparent border-[1.5px] border-ink/[.12] text-ink
+           hover:border-ink hover:shadow-none;
+  }
+  .card {
+    @apply bg-white border border-ink/[.12] rounded-[20px] p-10
+           transition-all duration-500 ease-brand
+           hover:-translate-y-[7px] hover:shadow-[0_22px_48px_rgba(22,24,50,.09)];
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
