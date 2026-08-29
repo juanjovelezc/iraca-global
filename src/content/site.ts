@@ -9,7 +9,7 @@ export const company = {
   name: 'Iraca Global',
   tagline: 'Bilingual. Vetted. Reliable.',
   location: 'Medellín, Colombia',
-  email: 'iracaglobal@gmail.com',
+  email: 'team@iracaglobal.com',
   phoneDisplay: '+57 312 226 7397',
   phoneWhatsApp: '573122267397',
   linkedin: 'https://www.linkedin.com/company/iraca-global/',
