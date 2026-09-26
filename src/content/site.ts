@@ -14,8 +14,8 @@ export const company = {
   phoneWhatsApp: '573122267397',
   linkedin: 'https://www.linkedin.com/company/iraca-global/',
   linkedinLabel: 'linkedin.com/company/iraca-global',
-  /** Reemplazar por el ID real de Formspree, Tally o el backend que uses */
-  formEndpoint: 'https://formspree.io/f/REEMPLAZA_ESTE_ID',
+  /** Endpoint del formulario de contacto. Se define en .env (VITE_FORM_ENDPOINT). */
+  formEndpoint: import.meta.env.VITE_FORM_ENDPOINT ?? '',
 } as const
 
 export const nav = [
