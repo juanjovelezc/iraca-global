@@ -146,7 +146,7 @@ export const team = {
       initials: 'JV',
       name: 'Juan José Vélez',
       role: 'Operations Manager & Co-Founder',
-      bio: '[PENDIENTE: 2-3 frases sobre su trayectoria en desarrollo de software y datos, que dirige y por que fundo la empresa.]',
+      bio: '',
       photo: '/juan-jose-velez.jpg',
       linkedin: 'https://www.linkedin.com/in/juan-jos%C3%A9-v%C3%A9lez-cano-13201a228/',
     },
