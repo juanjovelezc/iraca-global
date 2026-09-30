@@ -138,7 +138,7 @@ export const team = {
       initials: 'PV',
       name: 'Paulina Vélez',
       role: 'CEO & Co-Founder',
-      bio: '[PENDIENTE: 2-3 frases sobre su trayectoria, que dirige en Iraca Global y por que fundo la empresa.]',
+      bio: '',
       photo: '', // ruta en /public, ej. '/paulina.jpg'
       linkedin: '',
     },
@@ -147,8 +147,8 @@ export const team = {
       name: 'Juan José Vélez',
       role: 'Operations Manager & Co-Founder',
       bio: '[PENDIENTE: 2-3 frases sobre su trayectoria en desarrollo de software y datos, que dirige y por que fundo la empresa.]',
-      photo: '',
-      linkedin: '',
+      photo: '/juan-jose-velez.jpg',
+      linkedin: 'https://www.linkedin.com/in/juan-jos%C3%A9-v%C3%A9lez-cano-13201a228/',
     },
   ],
 }
