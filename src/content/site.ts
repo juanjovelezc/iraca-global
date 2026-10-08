@@ -139,7 +139,7 @@ export const team = {
       name: 'Paulina Vélez',
       role: 'CEO & Co-Founder',
       bio: '',
-      photo: '', // ruta en /public, ej. '/paulina.jpg'
+      photo: '/paulina-velez.jpg',
       linkedin: '',
     },
     {

@@ -14,7 +14,7 @@ export default function WhatWeDo() {
           <p className="text-ink/70 max-w-[62ch] mt-[22px] text-[1.06rem]">{whatWeDo.lead}</p>
         </Reveal>
 
-        <div className="grid gap-6 mt-15 md:grid-cols-2 mt-[60px]">
+        <div className="grid gap-6 md:grid-cols-2 mt-[60px]">
           {whatWeDo.cards.map((c, i) => (
             <Reveal key={c.kicker} delay={i * 110}>
               <div className="card h-full">

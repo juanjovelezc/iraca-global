@@ -1,5 +1,6 @@
 import Nav from './components/Nav'
 import Hero from './components/Hero'
+import Marquee from './components/ui/Marquee'
 import Problem from './components/Problem'
 import WhatWeDo from './components/WhatWeDo'
 import Method from './components/Method'
@@ -15,6 +16,7 @@ export default function App() {
       <Nav />
       <main>
         <Hero />
+        <Marquee />
         <Problem />
         <WhatWeDo />
         <Method />

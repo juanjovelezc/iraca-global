@@ -92,8 +92,13 @@ export default function Contact() {
                       placeholder={contact.fields.rolePlaceholder} required />
 
             <button type="submit" disabled={status === 'sending'}
-                    className="btn w-full mt-7 py-4 disabled:opacity-60 disabled:cursor-not-allowed">
-              {status === 'sending' ? contact.fields.sending : contact.fields.submit}
+                    className="btn w-full mt-7 py-4 disabled:opacity-60 disabled:cursor-not-allowed group">
+              {status === 'sending' ? contact.fields.sending : (
+                <>
+                  {contact.fields.submit}
+                  <span aria-hidden className="ml-2.5 inline-block transition-transform duration-300 ease-brand group-hover:translate-x-1.5">→</span>
+                </>
+              )}
             </button>
 
             <p aria-live="polite" className="mt-4 text-[14.5px] min-h-[1.5em]">

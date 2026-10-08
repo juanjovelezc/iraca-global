@@ -20,7 +20,7 @@ export default function Team() {
               <article className="card h-full !p-[38px]">
                 {m.photo ? (
                   <img src={m.photo} alt={m.name}
-                       className="w-[88px] h-[88px] rounded-full object-cover mb-[22px]" />
+                       className="w-[88px] h-[88px] rounded-full object-cover mb-[22px] ring-1 ring-ink/[.12]" />
                 ) : (
                   <div className="w-[88px] h-[88px] rounded-full mb-[22px] flex items-center justify-center
                                   bg-gradient-to-br from-teal to-ink text-cream font-display text-[1.9rem] font-bold">
